@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+int cost,dis;
+scanf("%d",cost);
+scanf("%d",dis);
+if(cost==0)
+{
+count=count+cost;
+cost=cost%dis;
+
+}
+printf("%d /n donot include extra characters or blanks" ,count);
+}
