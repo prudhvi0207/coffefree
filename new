@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-int cost,dis;
+int cost,dis,count;
 scanf("%d",cost);
 scanf("%d",dis);
 if(cost==0)
